@@ -17,7 +17,7 @@ npm install
 
 ## Basic Module Testing
 This demonstrates how you could setup your own test cases using Node.js without 
-insatlling any test frameworks or dependencies. 
+installing any test frameworks or dependencies. 
 
 Run example tests using the command:
 
