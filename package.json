@@ -7,7 +7,8 @@
   "scripts": {
     "basic-test": "node ./basic-module-testing/test/index.js",
     "express-test": "mocha ./express-application-testing/test -R spec",
-    "mocha-test": "mocha ./module-testing-with-mocha/index.js -R spec"
+    "mocha-test": "mocha ./module-testing-with-mocha/index.js -R spec",
+    "proxyquire-test": "mocha ./proxyquire-dependency-mocks/test/index.js -R spec"
   },
   "repository": {
     "type": "git",
@@ -21,10 +22,12 @@
   "homepage": "https://github.com/evanshortiss/nodejs-testing-examples",
   "dependencies": {
     "body-parser": "^1.14.1",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "request": "^2.65.0"
   },
   "devDependencies": {
     "chai": "^3.4.0",
-    "mocha": "^2.3.3"
+    "mocha": "^2.3.3",
+    "proxyquire": "^1.7.3"
   }
 }
