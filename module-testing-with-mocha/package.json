@@ -1,0 +1,23 @@
+{
+  "name": "module-testing-with-mocha",
+  "version": "0.1.0",
+  "description": "Example of structuring tests with Mocha",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "mocha ./index.js -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanshortiss/nodejs-testing-examples.git"
+  },
+  "author": "Evan Shortiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanshortiss/nodejs-testing-examples/issues"
+  },
+  "homepage": "https://github.com/evanshortiss/nodejs-testing-examples",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}

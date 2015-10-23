@@ -1,0 +1,20 @@
+{
+  "name": "basic-module-testing",
+  "version": "0.1.0",
+  "description": "Simple example of testing with the assert module",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanshortiss/nodejs-testing-examples.git"
+  },
+  "author": "Evan Shortiss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evanshortiss/nodejs-testing-examples/issues"
+  },
+  "homepage": "https://github.com/evanshortiss/nodejs-testing-examples"
+}
